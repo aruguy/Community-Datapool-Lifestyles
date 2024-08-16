@@ -1,0 +1,82 @@
+{
+  "id": "datapool-lifestyles",
+  "title": "Community Datapool: Lifestyles",
+  "version": "2.11.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.88.2"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "foundryvtt-simple-calendar",
+        "type": "module"
+      }
+    ]
+  },
+  "description": "A compendium of lifestyle items and helpful macros compatible with CyberpunkRED.",
+  "authors": [
+    {
+      "name": "Aru",
+      "discord": "aru.guy"
+    },
+    {
+      "name": "Henzard",
+      "discord": "Henzard"
+    },
+    {
+      "name": "R. Talsorian Games",
+      "url": "https://rtalsoriangames.com/homebrew-content-policy/"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Datapool Compendiums",
+      "sorting": "a",
+      "packs": [
+        "lifestyle-items",
+        "lifestyle-macros"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "lifestyle-items",
+      "label": "Lifestyle Items",
+      "banner": "modules/datapool-lifestyles/packs/lifestyle-banner.webp",
+      "path": "packs/lifestyle-items",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lifestyle-macros",
+      "label": "Lifestyle Macros",
+      "banner": "modules/datapool-lifestyles/packs/lifestyle-banner.webp",
+      "path": "packs/lifestyle-macros",
+      "type": "Macro",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/aruguy/Community-Datapool-Lifestyles",
+  "manifest": "https://github.com/aruguy/Community-Datapool-Lifestyles/releases/download/2.11.1/module.json",
+  "download": "https://github.com/aruguy/Community-Datapool-Lifestyles/releases/download/2.11.1/module.zip"
+}

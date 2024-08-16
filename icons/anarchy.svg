@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="height: 512px; width: 512px;"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="anarchy.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.6035156"
+     inkscape:cx="256"
+     inkscape:cy="253.50548"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <defs
+     id="defs2">
+    <filter
+       id="shadow-1"
+       height="1.1550915"
+       width="1.1580542"
+       x="-0.079027089"
+       y="-0.077545763">
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite"
+         id="feComposite1" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="15"
+         result="blur"
+         id="feGaussianBlur1" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset1" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="atop"
+         id="feComposite2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4"
+       x="-0.079027089"
+       y="-0.077545763"
+       width="1.1580542"
+       height="1.1550915">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(58,63,94)"
+         id="feFlood3" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="15.000000"
+         id="feGaussianBlur3" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset3" />
+      <feComposite
+         result="comp1"
+         operator="out"
+         in="flood"
+         in2="offset"
+         id="feComposite3" />
+      <feComposite
+         result="comp2"
+         operator="atop"
+         in="comp1"
+         in2="SourceGraphic"
+         id="feComposite4" />
+    </filter>
+  </defs>
+  <path
+     d="M0 0h512v512H0z"
+     fill="#1b1f21"
+     fill-opacity="1"
+     id="path2" />
+  <g
+     class=""
+     style=""
+     transform="translate(0,0)"
+     id="g3">
+    <path
+       d="M218.383 21.05L203.92 68.054C113.694 89.428 46 165.01 46 256c0 14.283 1.684 28.18 4.846 41.555L28.23 302.4l7.54 35.2 26.896-5.764c10.105 21.922 24.455 41.74 42.057 58.613l-25.926 84.257 34.406 10.586 21.793-70.824C169.324 436.875 211.146 450 256 450c58.938 0 112.636-22.662 150.98-59.27l41.756 66.81 30.528-19.08-47.616-76.185C453.324 331.823 466 295.355 466 256c0-3.533-.107-7.04-.31-10.525l18.08-3.875-7.54-35.2-16.218 3.475C437.487 124.62 353.984 62 256 62c-3.968 0-7.91.112-11.826.314l-25.79-41.263zm48.28 77.25c77.367 4.207 140.087 53.86 158.107 119.128l-73.772 15.808L266.664 98.3zm-37.046 8.647l83.944 134.31-134.11 28.74 50.167-163.05zm-38.37 2.295l-52.12 169.395-53.072 11.373A144.686 144.686 0 0 1 82 256c0-66.113 44.82-123.37 109.246-146.758zm238.712 143.89c.018.954.04 1.91.04 2.868 0 26.092-6.99 50.8-19.4 72.598l-39.31-62.895 58.67-12.572zm-96.106 20.593l53.644 85.832C355.762 392.824 308.884 414 256 414c-41.952 0-80.12-13.333-109.953-35.45l21.273-69.14 166.534-35.685zM126.998 318.05l-10.127 32.917c-6.922-8.368-12.95-17.373-17.956-26.9l28.084-6.016z"
+       fill="#e64539"
+       fill-opacity="1"
+       filter="url(#shadow-1)"
+       id="path3"
+       style="filter:url(#filter4)" />
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+2024/07/15-20:33:14.504 62cc Recovering log #61
+2024/07/15-20:33:14.504 62cc Level-0 table #63: started
+2024/07/15-20:33:14.510 62cc Level-0 table #63: 4140 bytes OK
+2024/07/15-20:33:14.522 62cc Delete type=0 #61
+2024/07/15-20:33:14.522 62cc Delete type=3 #60
